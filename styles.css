@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('images/423686730_710426777961141_4005259900186735180_n.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-size: 18px; /* Increase font size by 2 units */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Change to black with slight transparency */
+    color: white;
+    padding: 20px 0;
+    font-size: 20px; /* Increase font size by 2 units */
+}
+
+main {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Change to black with slight transparency */
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px; /* Increase font size by 2 units */
+}
+
+.gallery, .hobby, .interest, .conclusion {
+    background: rgba(0, 0, 0, 0.8); /* Change to black with slight transparency */
+    border: 1px solid #000; /* Change border to black */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px; /* Increase font size by 2 units */
+}
+
+.gallery img, .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Change to black with slight transparency */
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 20px; /* Increase font size by 2 units */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; /* Change link color to white */
+    font-size: 20px; /* Increase font size by 2 units */
+}
+
+a:hover {
+    text-decoration: underline;
+}
